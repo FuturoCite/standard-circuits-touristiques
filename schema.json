@@ -80,6 +80,10 @@
             "organisation": "Ville de Chaudfontaine",
             "role": "contributor"
         },
+           {
+            "organisation": "Ville de Hannut",
+            "role": "contributor"
+        },
         {
             "organisation": "Intercommunale pour la Gestion et la Réalisation d'Etudes Techniques et Economiques",
             "role": "contributor"
@@ -105,8 +109,81 @@
     "created": "2022-10-12",
     "updated": "2022-10-12",
     "homepage": "https://github.com/FuturoCite/standard-circuits-touristiques",
-    "uri": "https://raw.githubusercontent.com/FuturoCite/standard-circuits-touristiques/v0.1.0/schema.json",
-  
-  
-   "primaryKey":"id"
+    "uri": "https://raw.githubusercontent.com/FuturoCite/standard-circuits-touristiques/main/schema.json",
+    "fields": [
+        {
+            "name": "id",
+            "title": "Identifiant",
+            "description": "Ce champ contient un identifiant unique local. Le producteur de données le génère en associant  le code INS de la commune dans laquelle se situe le départ du circuit à un nombre. Ce champ permet d'éviter localement les doublons. Le code INS de la commune est accessible ici : https://statbel.fgov.be/fr/open-data/code-refnis ",
+            "example": "92003-125",
+            "type": "string",
+            "constraints": {
+                "required": true,
+                "unique": true
+            }
+        },
+          {
+            "name": "name",
+            "title": "Nom",
+            "description": "Ce champ contient le nom du circuit touristique.",
+            "example": "Balade à Maizeret",
+            "type": "string",
+            "constraints": {
+                "required": true
+            }
+        },
+        {
+            "name": "gpx",
+            "title": "GPX",
+            "description": "Ce champ contient un lien URL renvoyant vers la trace gpx du circuit.",
+            "example": "https://fr.wikiloc.com/wikiloc/download.do?id=92889100",
+            "type": "string",
+            "constraints": {
+                "required": true
+            }
+        },
+        {
+            "name": "description",
+            "title": "Description",
+            "description": "Ce champ est recommandé. Il contient une description du circuit.",
+            "example": "Perché en haut du plateau condruzien, Maizeret est le plus petit village de la commune d’Andenne. Il s’articule autour d’une jolie place et de son église néo-gothique. Localisation : rive droite de la Meuse. Nombre d’habitants : 342. Nom des habitants : Maizerétois,-oise Description : La rue de Villenval traverse le centre du village : elle doit son nom à l’important parc à gibier que l’on trouvait autrefois à Maizeret, l’ancien domaine de Vil-en-val. Il hébergeait entre autres un élevage de castors canadiens à queue plate et de myocastors. Aujourd’hui, la rue borde l’église Saint-Martin, un édifice rebâti dans les années 1920 après avoir été incendié par l’armée allemande. À caractère profondément rural, Maizeret a compté de nombreuses exploitations agricoles au cours de son histoire. Certaines d’entre elles s’articulent autour de bâtiments historiques remarquables encore visibles aujourd’hui: c’est notamment le cas de la Ferme Romedenne, du nom de son propriétaire au début du 20ème siècle. La partie la plus ancienne de la ferme, située à gauche, date du 17ème siècle ! Les carrières de Maizeret (Gawday, Grosjean et des Plates-Scailles) ont aujourd’hui cessé leurs activités, mais l’extraction de pierre a longtemps constitué l’autre activité économique principale du village.  Non loin de là, le fort de Maizeret fait partie des neuf forts bétonnés construits à la fin du 19ème siècle autour de Namur à l’initiative du général Henri Alexis Brialmont : il fut occupé pendant les deux Guerres mondiales. Aujourd’hui, les bâtiments militaires sont devenus une propriété privée ; ils sont inaccessibles. Coup de cœur Sur la place de l’église, la pompe à eau attire tous les regards ! Rénovée en 2015 à l’initiative du Comité des Cloupias (le nom wallon cloupia fait référence au petit crapaud accoucheur qui a trouvé refuge dans les campagnes aux alentours de Maizeret) en collaboration avec l’association Qualité Village Wallonie, elle a alimenté en eau les foyers du village jusqu’en 1950. Le saviez-vous ?La taille de l’église Saint-Martin peut sembler disproportionnée par rapport à celle du village qui compte peu d’habitants, mais elle s’explique par le fait que les militaires casernés au fort situé non loin de là y trouvaient abri.",
+            "type": "string",
+            "constraints": {
+                "required": false
+            }
+        },
+        {
+            "name": "transport_means",
+            "title": "Moyen de locomotion",
+            "description": "Ce champ précise le moyen de locomotion du circuit. Une valeur est possible parmi la liste suivante : Marche, Trail, Vélo/VTC, VTT, Cheval, Voiture.",
+            "example": "Marche",
+            "type": "string",
+            "constraints": {
+                "required": true, 
+                "enum" : ["Marche", "Trail", "Vélo/VTC", "VTT", "Cheval", "Voiture"]
+            }
+        },
+        {
+            "name": "name",
+            "title": "Nom",
+            "description": "Ce champ contient le nom du circuit touristique.",
+            "example": "structure-1",
+            "type": "string",
+            "constraints": {
+                "required": false
+            }
+        },
+        {
+            "name": "name",
+            "title": "Nom",
+            "description": "Ce champ contient le nom du circuit touristique.",
+            "example": "structure-1",
+            "type": "string",
+            "constraints": {
+                "required": false
+            }
+        },
+        
+    ],
+    "primaryKey":"id"
 }
