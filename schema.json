@@ -327,8 +327,8 @@
         {
             "name": "theme",
             "title": "Theme",
-            "description": "Ce champ précise le ou les thèmes éventuels du circuit. Les différents éléments doivent être séparés par des points virgules.",
-            "example": "Balade adaptée aux familles; Balade nature; Balade patrimoine",
+            "description": "Ce champ précise le ou les thèmes éventuels du circuit.",
+            "example": "Balade adaptée aux familles, balade nature, balade patrimoine",
             "type": "string",
             "constraints": {
                 "required": false
