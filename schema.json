@@ -294,7 +294,86 @@
                 "required": false
             }
         },
-        
+         {
+            "name": "buggy_access",
+            "title": "Accessibilité Poussette",
+            "description": "Ce champ est recommandé. Il indique si le circuit est accessible aux poussettes.",
+            "example": "false",
+            "type": "boolean",
+            "constraints": {
+                "required": false
+            }
+        },
+        {
+            "name": "loop",
+            "title": "En boucle",
+            "description": "Ce champ indique si le circuit est en boucle (true) ou linéaire (false).",
+            "example": "true",
+            "type": "boolean",
+            "constraints": {
+                "required": false
+            }
+        },
+        {
+            "name": "additional_information",
+            "title": "Informations complémentaires",
+            "description": "Ce champ donne toute information jugée utile au promeneur. Il indique par exemple si le circuit comporte des revêtements particuliers, des difficultés notables, des passages nécessitant d'emprunter des échelles... ",
+            "example": "Présence de passages glissants par temps de pluie",
+            "type": "string",
+            "constraints": {
+                "required": false
+            }
+        },
+        {
+            "name": "theme",
+            "title": "Theme",
+            "description": "Ce champ précise le ou les thèmes éventuels du circuit. Les différents éléments doivent être séparés par des points virgules.",
+            "example": "Balade adaptée aux familles; Balade nature; Balade patrimoine",
+            "type": "string",
+            "constraints": {
+                "required": false
+            }
+        },
+         {
+            "name": "provider",
+            "title": "Gestionnaire",
+            "description": "Ce champ est recommandé. Il indique le nom du gestionnaire du circuit. Il peut s'agire d'une commune, d'un office du tourisme, d'un groupe d'action locale…",
+            "example": "Office du tourisme d'Andenne",
+            "type": "string",
+            "constraints": {
+                "required": false
+            }
+        },
+         {
+            "name": "contact",
+            "title": "Contact",
+            "description": "Ce champ contient l'url du site web du gestionnaire du circuit.",
+            "example": "https://www.andennetourisme.be/",
+            "type": "string",
+            "constraints": {
+                "required": false
+            }
+        },
+         {
+            "name": "created_date",
+            "title": "Date de création de la donnée",
+            "description": "Ce champ indique la date de création de la donnée dans le jeu. Il respecte le format ISO 8601 : année-mois-jour (YYYY-MM-DD) ",
+            "example": "2021-11-03",
+            "type": "default",
+            "constraints": {
+                "required": false
+            }
+        },
+         {
+            "name": "last_modified_date",
+            "title": "Date de dernière modification de la donnée",
+            "description": "Ce champ indique la date de la dernière modification de la donnée dans le jeu. Il respecte le format ISO 8601 : année-mois-jour (YYYY-MM-DD). ",
+            "example": "2021-12-05",
+            "type": "default",
+            "constraints": {
+                "required": false
+            }
+        }
     ],
     "primaryKey":"id"
 }
