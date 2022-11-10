@@ -337,7 +337,7 @@
          {
             "name": "provider",
             "title": "Gestionnaire",
-            "description": "Ce champ est recommandé. Il indique le nom du gestionnaire du circuit. Il peut s'agire d'une commune, d'un office du tourisme, d'un groupe d'action locale…",
+            "description": "Ce champ est recommandé. Il indique le nom du gestionnaire du circuit. Il peut s'agir d'une commune, d'un office du tourisme, d'un groupe d'action locale…",
             "example": "Office du tourisme d'Andenne",
             "type": "string",
             "constraints": {
