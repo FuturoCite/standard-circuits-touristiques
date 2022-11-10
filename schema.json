@@ -287,7 +287,7 @@
          {
             "name": "disabled_access",
             "title": "Accessibilité PMR",
-            "description": "Ce champ est recommanadé. Il indique si le circuit est accessible aux personnes à mobilités réduites.",
+            "description": "Ce champ est recommandé. Il indique si le circuit est accessible aux personnes à mobilités réduites.",
             "example": "false",
             "type": "boolean",
             "constraints": {
