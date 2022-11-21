@@ -236,12 +236,15 @@
          {
             "name": "geometry",
             "title": "Geométrie",
-            "description": "Ce champ indique la géométrie du circuit. La liste des coordonnées est générée à partir d'un fichier GPX.",
-{
-             "coordinates": [[[4.873456301419114, 50.46480453345877], [4.873439910055412, 50.46481836818607], [4.873428443405042, 50.464812834018396], [4.873393336958761, 50.4647958884445], [4.873383501855486, 50.46479145481125], [4.873399006778517, 50.464777442335034], [4.873421860118124, 50.46478801474829], [4.873444741696875, 50.46479898890849], [4.873456301419114, 50.46480453345877]]], 
-            "type": "LineString"
-},
-             "constraints":{
+            "description": "Ce champ indique la géométrie du circuit. La liste des coordonnées est générée à partir d'un fichier GPX.", 
+            {
+         "type": "LineString",
+         "coordinates": [
+             [100.0, 0.0],
+             [101.0, 1.0]
+         ]
+     },
+            "constraints":{
                 "required": false, 
             }
          },
