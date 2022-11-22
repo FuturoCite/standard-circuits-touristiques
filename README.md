@@ -15,6 +15,7 @@ Les membres du groupe de travail ont défini un schéma de données qui décrit 
 ## Description du schéma
 
 Un [gabarit au format tableur](https://github.com/FuturoCite/standard-circuits-touristiques/blob/main/Schema_circuits_touristiques_gabarit.xlsx) est également prévu pour faciliter la publication d'un jeu de données conforme au format du schéma.
+
 Un exemple valide au format CSV est consultable [ici](https://github.com/FuturoCite/standard-circuits-touristiques/blob/main/exemple-valide.csv).  
 
 Le tableau ci-dessous donne un aperçu des champs du schéma. 
