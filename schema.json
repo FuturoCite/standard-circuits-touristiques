@@ -252,6 +252,16 @@
               "required": false
         }
        },
+        {
+            "name": "length",
+            "title": "Longueur",
+            "description": "Ce champ contient la longueur du circuit exprimée en km.",
+            "example": "4.4",
+            "type": "number",
+            "constraints": {
+                "required": false
+            }
+        },
           {
             "name": "elevation",
             "title": "Dénivelé",
