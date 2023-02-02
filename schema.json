@@ -296,7 +296,7 @@
          {
             "name": "disabled_access",
             "title": "Accessibilité PMR",
-            "description": "Ce champ est recommandé. Il indique si le circuit est accessible aux personnes à mobilités réduites.",
+            "description": "Ce champ est recommandé. Il indique si le circuit est accessible aux personnes à mobilités réduites (valeur 'true') ou non (valeur 'false').",
             "example": "false",
             "type": "boolean",
             "constraints": {
@@ -306,7 +306,7 @@
          {
             "name": "buggy_access",
             "title": "Accessibilité Poussette",
-            "description": "Ce champ est recommandé. Il indique si le circuit est accessible aux poussettes.",
+            "description": "Ce champ est recommandé. Il indique si le circuit est accessible aux poussettes (valeur 'true') ou non (valeur 'false').",
             "example": "false",
             "type": "boolean",
             "constraints": {
@@ -316,7 +316,7 @@
         {
             "name": "loop",
             "title": "En boucle",
-            "description": "Ce champ indique si le circuit est en boucle (true) ou linéaire (false).",
+            "description": "Ce champ indique si le circuit est en boucle (valeur 'true') ou linéaire (valeur 'false').",
             "example": "true",
             "type": "boolean",
             "constraints": {
