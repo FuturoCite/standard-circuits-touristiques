@@ -226,7 +226,7 @@
          {
             "name": "bidirectional_markup",
             "title": "Balisage bi-directionnel",
-            "description": "Ce champ indique si le balisage permet la réalisation du circuit dans les deux sens ou pas. La valeur 'true' signifie un balisage bi-directionnel, 'false' signifie un balisage uni-directionnel.",
+            "description": "Ce champ indique si le balisage permet la réalisation du circuit dans les deux sens ou pas. La valeur 'true' signifie un balisage bi-directionnel, 'false' signifie un balisage uni-directionnel. Si non applicable/non connu : ne pas renseigner ce champ.",
             "example": "false",
             "type": "boolean",
             "constraints": {
@@ -296,7 +296,7 @@
          {
             "name": "disabled_access",
             "title": "Accessibilité PMR",
-            "description": "Ce champ est recommandé. Il indique si le circuit est accessible aux personnes à mobilités réduites (valeur 'true') ou non (valeur 'false').",
+            "description": "Ce champ est recommandé. Il indique si le circuit est accessible aux personnes à mobilités réduites (valeur 'true') ou non (valeur 'false'). Si non applicable/non connu : ne pas renseigner ce champ.",
             "example": "false",
             "type": "boolean",
             "constraints": {
@@ -306,7 +306,7 @@
          {
             "name": "buggy_access",
             "title": "Accessibilité Poussette",
-            "description": "Ce champ est recommandé. Il indique si le circuit est accessible aux poussettes (valeur 'true') ou non (valeur 'false').",
+            "description": "Ce champ est recommandé. Il indique si le circuit est accessible aux poussettes (valeur 'true') ou non (valeur 'false'). Si non applicable/non connu : ne pas renseigner ce champ.",
             "example": "false",
             "type": "boolean",
             "constraints": {
@@ -316,7 +316,7 @@
         {
             "name": "loop",
             "title": "En boucle",
-            "description": "Ce champ indique si le circuit est en boucle (valeur 'true') ou linéaire (valeur 'false').",
+            "description": "Ce champ indique si le circuit est en boucle (valeur 'true') ou linéaire (valeur 'false'). Si non applicable/non connu : ne pas renseigner ce champ.",
             "example": "true",
             "type": "boolean",
             "constraints": {
