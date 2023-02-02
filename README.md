@@ -188,7 +188,7 @@ Le tableau ci-dessous donne un aperçu des champs du schéma.
    </td>
    <td>Optionnel (recommandé)
    </td>
-   <td>Ce champ est recommandé. Il indique si le circuit est accessible aux personnes à mobilités réduites.
+   <td>Ce champ est recommandé. Il indique si le circuit est accessible aux personnes à mobilités réduites (valeur 'true') ou non (valeur 'false').
    </td>
   </tr>
   <tr>
@@ -197,7 +197,7 @@ Le tableau ci-dessous donne un aperçu des champs du schéma.
    </td>
    <td>Optionnel (recommandé)
    </td>
-   <td>Ce champ est recommandé. Il indique si le circuit est accessible aux poussettes.
+   <td>Ce champ est recommandé. Il indique si le circuit est accessible aux poussettes (valeur 'true') ou non (valeur 'false')..
    </td>
   </tr>
   <tr>
@@ -206,7 +206,7 @@ Le tableau ci-dessous donne un aperçu des champs du schéma.
    </td>
    <td>Optionnel
    </td>
-   <td>Ce champ indique si le circuit est en boucle (true) ou linéaire (false).
+   <td>Ce champ indique si le circuit est en boucle (valeur 'true') ou linéaire (valeur 'false')..
    </td>
   </tr>
   <tr>
