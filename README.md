@@ -134,7 +134,7 @@ Le tableau ci-dessous donne un aperçu des champs du schéma.
    </td>
    <td>Optionnel
    </td>
-   <td>Ce champ indique si le balisage permet la réalisation du circuit dans les deux sens ou pas. La valeur "true" signifie un balisage bi-directionnel, "false" signifie un balisage uni-directionnel.
+   <td>Ce champ indique si le balisage permet la réalisation du circuit dans les deux sens ou pas. La valeur 'true' signifie un balisage bi-directionnel, 'false' signifie un balisage uni-directionnel. Si non applicable/non connu : ne pas renseigner ce champ.
    </td>
   </tr>
   <tr>
@@ -188,7 +188,7 @@ Le tableau ci-dessous donne un aperçu des champs du schéma.
    </td>
    <td>Optionnel (recommandé)
    </td>
-   <td>Ce champ est recommandé. Il indique si le circuit est accessible aux personnes à mobilités réduites (valeur 'true') ou non (valeur 'false').
+   <td>Ce champ est recommandé. Il indique si le circuit est accessible aux personnes à mobilités réduites (valeur 'true') ou non (valeur 'false'). Si non applicable/non connu : ne pas renseigner ce champ.
    </td>
   </tr>
   <tr>
@@ -197,7 +197,7 @@ Le tableau ci-dessous donne un aperçu des champs du schéma.
    </td>
    <td>Optionnel (recommandé)
    </td>
-   <td>Ce champ est recommandé. Il indique si le circuit est accessible aux poussettes (valeur 'true') ou non (valeur 'false')..
+   <td>Ce champ est recommandé. Il indique si le circuit est accessible aux poussettes (valeur 'true') ou non (valeur 'false'). Si non applicable/non connu : ne pas renseigner ce champ.
    </td>
   </tr>
   <tr>
@@ -206,7 +206,7 @@ Le tableau ci-dessous donne un aperçu des champs du schéma.
    </td>
    <td>Optionnel
    </td>
-   <td>Ce champ indique si le circuit est en boucle (valeur 'true') ou linéaire (valeur 'false')..
+   <td>Ce champ indique si le circuit est en boucle (valeur 'true') ou linéaire (valeur 'false'). Si non applicable/non connu : ne pas renseigner ce champ.
    </td>
   </tr>
   <tr>
