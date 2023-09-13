@@ -80,7 +80,7 @@ Le tableau ci-dessous donne un aperçu des champs du schéma.
    </td>
    <td>Optionnel (recommandé)
    </td>
-   <td>Ce champ est recommandé. Il indique la difficulté du circuit réalisé avec le moyen de locomotion identifié dans le champ Type de locomotion. 1=Très facile, 2=Facile, 3=Moyen, 4=Difficile
+   <td>Ce champ est recommandé. Il indique la difficulté du circuit réalisé avec le moyen de locomotion identifié dans le champ Type de locomotion. Valeur à choisir parmi : 1, 2, 3 ou 4. 1=Très facile, 2=Facile, 3=Moyen, 4=Difficile
    </td>
   </tr>
   <tr>
